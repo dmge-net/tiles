@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Floor base -->
+  <rect width="128" height="128" fill="#24262b"/>
+  <rect x="2" y="52" width="124" height="74" rx="2" fill="#2d3138" stroke="#181a1f" stroke-width="2"/>
+  <!-- Wall sides -->
+  <rect x="0" y="0" width="36" height="48" fill="#1b1c20" stroke="#0e0f12" stroke-width="2"/>
+  <rect x="92" y="0" width="36" height="48" fill="#1b1c20" stroke="#0e0f12" stroke-width="2"/>
+  <rect x="2" y="2" width="32" height="44" fill="#4a505c" stroke="#14161a" stroke-width="1.5"/>
+  <rect x="94" y="2" width="32" height="44" fill="#4a505c" stroke="#14161a" stroke-width="1.5"/>
+  <!-- Door frame and wooden door -->
+  <rect x="36" y="4" width="56" height="42" fill="#4a2e18" stroke="#1f140a" stroke-width="2" rx="3"/>
+  <!-- Wood planks -->
+  <line x1="50" y1="4" x2="50" y2="46" stroke="#2d1c0e" stroke-width="1.5"/>
+  <line x1="64" y1="4" x2="64" y2="46" stroke="#2d1c0e" stroke-width="1.5"/>
+  <line x1="78" y1="4" x2="78" y2="46" stroke="#2d1c0e" stroke-width="1.5"/>
+  <!-- Iron bands -->
+  <rect x="36" y="12" width="56" height="5" fill="#3a3f47" stroke="#181a1f" stroke-width="1"/>
+  <rect x="36" y="32" width="56" height="5" fill="#3a3f47" stroke="#181a1f" stroke-width="1"/>
+  <!-- Iron ring handle -->
+  <circle cx="70" cy="24" r="4" fill="none" stroke="#e0a842" stroke-width="2"/>
+</svg>

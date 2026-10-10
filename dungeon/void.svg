@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <rect width="128" height="128" fill="#0d0e12"/>
+  <!-- Subtle dark stone hatching -->
+  <line x1="10" y1="10" x2="30" y2="30" stroke="#161820" stroke-width="2"/>
+  <line x1="70" y1="20" x2="100" y2="50" stroke="#161820" stroke-width="2"/>
+  <line x1="20" y1="80" x2="50" y2="110" stroke="#161820" stroke-width="2"/>
+  <line x1="80" y1="80" x2="110" y2="110" stroke="#161820" stroke-width="2"/>
+</svg>

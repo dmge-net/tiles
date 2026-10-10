@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <rect width="128" height="128" fill="#24262b"/>
+  <!-- Floor in bottom-right -->
+  <rect x="52" y="52" width="74" height="74" rx="2" fill="#2d3138" stroke="#181a1f" stroke-width="2"/>
+  <!-- NW corner wall blocks -->
+  <rect x="0" y="0" width="128" height="48" fill="#1b1c20" stroke="#0e0f12" stroke-width="2"/>
+  <rect x="0" y="48" width="48" height="80" fill="#1b1c20" stroke="#0e0f12" stroke-width="2"/>
+  <rect x="2" y="2" width="44" height="44" fill="#525966" stroke="#14161a" stroke-width="1.5"/>
+  <rect x="48" y="2" width="78" height="44" fill="#4a505c" stroke="#14161a" stroke-width="1.5"/>
+  <rect x="2" y="48" width="44" height="78" fill="#454b56" stroke="#14161a" stroke-width="1.5"/>
+</svg>

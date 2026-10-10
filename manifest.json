@@ -1,0 +1,275 @@
+{
+  "schemaVersion": "1.0.0",
+  "name": "DMGE Core Tiles",
+  "description": "Public modular tile library for DMGE with WFC socket adjacency and automated raycast vision blocking segments",
+  "author": "mcdoolz",
+  "tileSize": 128,
+  "biomes": [
+    { "id": "dungeon", "name": "Ancient Dungeon", "ambientLight": "#1a1c23" },
+    { "id": "crypt", "name": "Forgotten Crypt", "ambientLight": "#121816" },
+    { "id": "cave", "name": "Subterranean Cavern", "ambientLight": "#14110d" }
+  ],
+  "tiles": [
+    {
+      "id": "dungeon_floor_01",
+      "name": "Dungeon Floor",
+      "biome": "dungeon",
+      "category": "floor",
+      "file": "dungeon/floor_01.svg",
+      "sockets": {
+        "north": "floor",
+        "east": "floor",
+        "south": "floor",
+        "west": "floor"
+      },
+      "blockingSegments": [],
+      "castsShadow": false,
+      "weight": 5.0,
+      "tags": ["stone", "floor", "clean"]
+    },
+    {
+      "id": "dungeon_floor_cracked",
+      "name": "Cracked Stone Floor",
+      "biome": "dungeon",
+      "category": "floor",
+      "file": "dungeon/floor_cracked.svg",
+      "sockets": {
+        "north": "floor",
+        "east": "floor",
+        "south": "floor",
+        "west": "floor"
+      },
+      "blockingSegments": [],
+      "castsShadow": false,
+      "weight": 1.5,
+      "tags": ["stone", "floor", "cracked", "hazard"]
+    },
+    {
+      "id": "dungeon_wall_n",
+      "name": "Dungeon Wall North",
+      "biome": "dungeon",
+      "category": "wall",
+      "file": "dungeon/wall_n.svg",
+      "sockets": {
+        "north": "wall",
+        "east": "wall_side_n",
+        "south": "floor",
+        "west": "wall_side_n"
+      },
+      "blockingSegments": [
+        [0.0, 0.375, 1.0, 0.375]
+      ],
+      "castsShadow": true,
+      "weight": 2.0,
+      "tags": ["stone", "wall", "north"]
+    },
+    {
+      "id": "dungeon_wall_s",
+      "name": "Dungeon Wall South",
+      "biome": "dungeon",
+      "category": "wall",
+      "file": "dungeon/wall_s.svg",
+      "sockets": {
+        "north": "floor",
+        "east": "wall_side_s",
+        "south": "wall",
+        "west": "wall_side_s"
+      },
+      "blockingSegments": [
+        [0.0, 0.625, 1.0, 0.625]
+      ],
+      "castsShadow": true,
+      "weight": 2.0,
+      "tags": ["stone", "wall", "south"]
+    },
+    {
+      "id": "dungeon_wall_w",
+      "name": "Dungeon Wall West",
+      "biome": "dungeon",
+      "category": "wall",
+      "file": "dungeon/wall_w.svg",
+      "sockets": {
+        "north": "wall_side_w",
+        "east": "floor",
+        "south": "wall_side_w",
+        "west": "wall"
+      },
+      "blockingSegments": [
+        [0.375, 0.0, 0.375, 1.0]
+      ],
+      "castsShadow": true,
+      "weight": 2.0,
+      "tags": ["stone", "wall", "west"]
+    },
+    {
+      "id": "dungeon_wall_e",
+      "name": "Dungeon Wall East",
+      "biome": "dungeon",
+      "category": "wall",
+      "file": "dungeon/wall_e.svg",
+      "sockets": {
+        "north": "wall_side_e",
+        "east": "wall",
+        "south": "wall_side_e",
+        "west": "floor"
+      },
+      "blockingSegments": [
+        [0.625, 0.0, 0.625, 1.0]
+      ],
+      "castsShadow": true,
+      "weight": 2.0,
+      "tags": ["stone", "wall", "east"]
+    },
+    {
+      "id": "dungeon_corner_nw",
+      "name": "Dungeon Corner NW",
+      "biome": "dungeon",
+      "category": "corner",
+      "file": "dungeon/corner_nw.svg",
+      "sockets": {
+        "north": "wall",
+        "east": "wall_side_n",
+        "south": "wall_side_w",
+        "west": "wall"
+      },
+      "blockingSegments": [
+        [0.375, 1.0, 0.375, 0.375],
+        [0.375, 0.375, 1.0, 0.375]
+      ],
+      "castsShadow": true,
+      "weight": 1.0,
+      "tags": ["stone", "corner", "nw"]
+    },
+    {
+      "id": "dungeon_corner_ne",
+      "name": "Dungeon Corner NE",
+      "biome": "dungeon",
+      "category": "corner",
+      "file": "dungeon/corner_ne.svg",
+      "sockets": {
+        "north": "wall",
+        "east": "wall",
+        "south": "wall_side_e",
+        "west": "wall_side_n"
+      },
+      "blockingSegments": [
+        [0.0, 0.375, 0.625, 0.375],
+        [0.625, 0.375, 0.625, 1.0]
+      ],
+      "castsShadow": true,
+      "weight": 1.0,
+      "tags": ["stone", "corner", "ne"]
+    },
+    {
+      "id": "dungeon_corner_sw",
+      "name": "Dungeon Corner SW",
+      "biome": "dungeon",
+      "category": "corner",
+      "file": "dungeon/corner_sw.svg",
+      "sockets": {
+        "north": "wall_side_w",
+        "east": "wall_side_s",
+        "south": "wall",
+        "west": "wall"
+      },
+      "blockingSegments": [
+        [0.375, 0.0, 0.375, 0.625],
+        [0.375, 0.625, 1.0, 0.625]
+      ],
+      "castsShadow": true,
+      "weight": 1.0,
+      "tags": ["stone", "corner", "sw"]
+    },
+    {
+      "id": "dungeon_corner_se",
+      "name": "Dungeon Corner SE",
+      "biome": "dungeon",
+      "category": "corner",
+      "file": "dungeon/corner_se.svg",
+      "sockets": {
+        "north": "wall_side_e",
+        "east": "wall",
+        "south": "wall",
+        "west": "wall_side_s"
+      },
+      "blockingSegments": [
+        [0.0, 0.625, 0.625, 0.625],
+        [0.625, 0.0, 0.625, 0.625]
+      ],
+      "castsShadow": true,
+      "weight": 1.0,
+      "tags": ["stone", "corner", "se"]
+    },
+    {
+      "id": "dungeon_door_n",
+      "name": "Dungeon Door North",
+      "biome": "dungeon",
+      "category": "door",
+      "file": "dungeon/door_n.svg",
+      "sockets": {
+        "north": "floor",
+        "east": "wall_side_n",
+        "south": "floor",
+        "west": "wall_side_n"
+      },
+      "blockingSegments": [
+        [0.0, 0.375, 1.0, 0.375]
+      ],
+      "doorSegment": [0.28, 0.375, 0.72, 0.375],
+      "castsShadow": true,
+      "weight": 0.8,
+      "tags": ["wood", "iron", "door", "passable"]
+    },
+    {
+      "id": "dungeon_void",
+      "name": "Dungeon Void",
+      "biome": "dungeon",
+      "category": "void",
+      "file": "dungeon/void.svg",
+      "sockets": {
+        "north": "wall",
+        "east": "wall",
+        "south": "wall",
+        "west": "wall"
+      },
+      "blockingSegments": [],
+      "castsShadow": false,
+      "weight": 1.0,
+      "tags": ["void", "empty"]
+    },
+    {
+      "id": "crypt_floor_slate",
+      "name": "Crypt Slate Floor",
+      "biome": "crypt",
+      "category": "floor",
+      "file": "crypt/floor_slate.svg",
+      "sockets": {
+        "north": "floor",
+        "east": "floor",
+        "south": "floor",
+        "west": "floor"
+      },
+      "blockingSegments": [],
+      "castsShadow": false,
+      "weight": 4.0,
+      "tags": ["slate", "moss", "crypt"]
+    },
+    {
+      "id": "cave_floor_dirt",
+      "name": "Cavern Dirt Floor",
+      "biome": "cave",
+      "category": "floor",
+      "file": "cave/floor_dirt.svg",
+      "sockets": {
+        "north": "floor",
+        "east": "floor",
+        "south": "floor",
+        "west": "floor"
+      },
+      "blockingSegments": [],
+      "castsShadow": false,
+      "weight": 4.0,
+      "tags": ["dirt", "cave", "rough"]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <rect width="128" height="128" fill="#24262b"/>
+  <rect x="2" y="2" width="60" height="60" rx="2" fill="#2f333a" stroke="#181a1f" stroke-width="2"/>
+  <rect x="66" y="2" width="60" height="60" rx="2" fill="#2d3138" stroke="#181a1f" stroke-width="2"/>
+  <rect x="2" y="66" width="60" height="60" rx="2" fill="#32363e" stroke="#181a1f" stroke-width="2"/>
+  <rect x="66" y="66" width="60" height="60" rx="2" fill="#282b30" stroke="#181a1f" stroke-width="2"/>
+  <!-- Crack fissure -->
+  <path d="M 25 10 L 40 32 L 35 48 L 52 58 L 70 85 L 85 92 L 105 120" stroke="#121317" stroke-width="2" fill="none" stroke-linejoin="round"/>
+  <path d="M 40 32 L 55 38" stroke="#121317" stroke-width="1.5" fill="none"/>
+  <path d="M 70 85 L 60 102" stroke="#121317" stroke-width="1.5" fill="none"/>
+</svg>

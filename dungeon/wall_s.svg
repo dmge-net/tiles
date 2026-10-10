@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Floor base -->
+  <rect width="128" height="128" fill="#24262b"/>
+  <rect x="2" y="2" width="60" height="74" rx="2" fill="#2d3138" stroke="#181a1f" stroke-width="2"/>
+  <rect x="66" y="2" width="60" height="74" rx="2" fill="#32363e" stroke="#181a1f" stroke-width="2"/>
+  <!-- South Wall block -->
+  <rect x="0" y="80" width="128" height="48" fill="#1b1c20" stroke="#0e0f12" stroke-width="2"/>
+  <!-- Wall masonry blocks -->
+  <rect x="2" y="82" width="40" height="20" fill="#4a505c" stroke="#14161a" stroke-width="1.5"/>
+  <rect x="44" y="82" width="40" height="20" fill="#525966" stroke="#14161a" stroke-width="1.5"/>
+  <rect x="86" y="82" width="40" height="20" fill="#454b56" stroke="#14161a" stroke-width="1.5"/>
+  <rect x="2" y="104" width="20" height="22" fill="#3e434d" stroke="#14161a" stroke-width="1.5"/>
+  <rect x="24" y="104" width="40" height="22" fill="#4a505c" stroke="#14161a" stroke-width="1.5"/>
+  <rect x="66" y="104" width="40" height="22" fill="#525966" stroke="#14161a" stroke-width="1.5"/>
+  <rect x="108" y="104" width="18" height="22" fill="#3e434d" stroke="#14161a" stroke-width="1.5"/>
+</svg>

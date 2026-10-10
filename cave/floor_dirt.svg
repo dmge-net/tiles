@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <rect width="128" height="128" fill="#2d261e"/>
+  <!-- Rough natural stone patches -->
+  <path d="M 10 20 Q 35 5 60 25 T 110 30 T 90 70 T 40 80 Z" fill="#3a3229" stroke="#1f1a14" stroke-width="2"/>
+  <circle cx="85" cy="95" r="16" fill="#352e25" stroke="#1f1a14" stroke-width="1.5"/>
+  <circle cx="25" cy="100" r="12" fill="#352e25" stroke="#1f1a14" stroke-width="1.5"/>
+  <!-- Pebbles -->
+  <circle cx="45" cy="45" r="3" fill="#524639"/>
+  <circle cx="70" cy="55" r="4" fill="#524639"/>
+  <circle cx="95" cy="40" r="3" fill="#524639"/>
+</svg>
