@@ -2,7 +2,7 @@
   "schemaVersion": "1.0.0",
   "name": "DMGE Core Tiles",
   "description": "Public modular tile library for DMGE with WFC socket adjacency and automated raycast vision blocking segments",
-  "author": "mcdoolz",
+  "author": "dmge-net",
   "tileSize": 128,
   "biomes": [
     { "id": "dungeon", "name": "Ancient Dungeon", "ambientLight": "#1a1c23" },
