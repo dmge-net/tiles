@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Floor base -->
+  <rect width="128" height="128" fill="#3a2518"/>
+  <rect x="2" y="52" width="124" height="34" rx="1" fill="#4d3221" stroke="#2a1a10" stroke-width="2"/>
+  <rect x="2" y="90" width="124" height="36" rx="1" fill="#543725" stroke="#2a1a10" stroke-width="2"/>
+  <!-- Wall drop shadow -->
+  <rect x="0" y="48" width="128" height="12" fill="#120b07" opacity="0.6"/>
+  <!-- Wall timber frame -->
+  <rect x="0" y="0" width="128" height="48" fill="#2d1d14" stroke="#170e0a" stroke-width="2"/>
+  <rect x="4" y="4" width="36" height="40" fill="#c4b29b" stroke="#3d271b" stroke-width="2"/>
+  <rect x="46" y="4" width="36" height="40" fill="#bfae97" stroke="#3d271b" stroke-width="2"/>
+  <rect x="88" y="4" width="36" height="40" fill="#c7b69f" stroke="#3d271b" stroke-width="2"/>
+  <!-- Timber cross brace -->
+  <line x1="4" y1="4" x2="40" y2="44" stroke="#3d271b" stroke-width="2.5"/>
+  <line x1="46" y1="4" x2="82" y2="44" stroke="#3d271b" stroke-width="2.5"/>
+  <line x1="88" y1="4" x2="124" y2="44" stroke="#3d271b" stroke-width="2.5"/>
+</svg>

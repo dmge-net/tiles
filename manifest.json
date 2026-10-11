@@ -7,7 +7,8 @@
   "biomes": [
     { "id": "dungeon", "name": "Ancient Dungeon", "ambientLight": "#1a1c23" },
     { "id": "crypt", "name": "Forgotten Crypt", "ambientLight": "#121816" },
-    { "id": "cave", "name": "Subterranean Cavern", "ambientLight": "#14110d" }
+    { "id": "cave", "name": "Subterranean Cavern", "ambientLight": "#14110d" },
+    { "id": "tavern", "name": "Rustic Tavern", "ambientLight": "#2c1f18" }
   ],
   "tiles": [
     {
@@ -270,6 +271,100 @@
       "castsShadow": false,
       "weight": 4.0,
       "tags": ["dirt", "cave", "rough"]
+    },
+    {
+      "id": "crypt_wall_n",
+      "name": "Crypt Wall North",
+      "biome": "crypt",
+      "category": "wall",
+      "file": "crypt/wall_n.svg",
+      "sockets": {
+        "north": "wall",
+        "east": "wall_side_n",
+        "south": "floor",
+        "west": "wall_side_n"
+      },
+      "blockingSegments": [
+        [0.0, 0.375, 1.0, 0.375]
+      ],
+      "castsShadow": true,
+      "weight": 2.5,
+      "tags": ["crypt", "slate", "wall", "skull"]
+    },
+    {
+      "id": "cave_wall_n",
+      "name": "Cavern Wall North",
+      "biome": "cave",
+      "category": "wall",
+      "file": "cave/wall_n.svg",
+      "sockets": {
+        "north": "wall",
+        "east": "wall_side_n",
+        "south": "floor",
+        "west": "wall_side_n"
+      },
+      "blockingSegments": [
+        [0.0, 0.375, 1.0, 0.375]
+      ],
+      "castsShadow": true,
+      "weight": 2.5,
+      "tags": ["cave", "rock", "wall", "natural"]
+    },
+    {
+      "id": "tavern_floor_wood",
+      "name": "Tavern Wood Floor",
+      "biome": "tavern",
+      "category": "floor",
+      "file": "tavern/floor_wood.svg",
+      "sockets": {
+        "north": "floor",
+        "east": "floor",
+        "south": "floor",
+        "west": "floor"
+      },
+      "blockingSegments": [],
+      "castsShadow": false,
+      "weight": 5.0,
+      "tags": ["wood", "floor", "tavern", "clean"]
+    },
+    {
+      "id": "tavern_wall_n",
+      "name": "Tavern Wall North",
+      "biome": "tavern",
+      "category": "wall",
+      "file": "tavern/wall_n.svg",
+      "sockets": {
+        "north": "wall",
+        "east": "wall_side_n",
+        "south": "floor",
+        "west": "wall_side_n"
+      },
+      "blockingSegments": [
+        [0.0, 0.375, 1.0, 0.375]
+      ],
+      "castsShadow": true,
+      "weight": 2.5,
+      "tags": ["wood", "plaster", "wall", "tavern"]
+    },
+    {
+      "id": "tavern_door_n",
+      "name": "Tavern Door North",
+      "biome": "tavern",
+      "category": "door",
+      "file": "tavern/door_n.svg",
+      "sockets": {
+        "north": "floor",
+        "east": "wall_side_n",
+        "south": "floor",
+        "west": "wall_side_n"
+      },
+      "blockingSegments": [
+        [0.0, 0.375, 1.0, 0.375]
+      ],
+      "doorSegment": [0.28, 0.375, 0.72, 0.375],
+      "castsShadow": true,
+      "weight": 0.8,
+      "tags": ["wood", "door", "tavern", "passable"]
     }
   ]
 }

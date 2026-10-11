@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Mossy slate floor base -->
+  <rect width="128" height="128" fill="#1b1f24"/>
+  <rect x="2" y="52" width="124" height="74" rx="2" fill="#242b33" stroke="#12161a" stroke-width="2"/>
+  <circle cx="25" cy="85" r="10" fill="#2a452a" opacity="0.6"/>
+  <!-- North Crypt Wall -->
+  <rect x="0" y="48" width="128" height="14" fill="#090c0e" opacity="0.7"/>
+  <rect x="0" y="0" width="128" height="48" fill="#14181c" stroke="#090b0d" stroke-width="2"/>
+  <!-- Carved stone slabs -->
+  <rect x="2" y="2" width="40" height="44" fill="#222830" stroke="#0f1216" stroke-width="1.5"/>
+  <rect x="86" y="2" width="40" height="44" fill="#222830" stroke="#0f1216" stroke-width="1.5"/>
+  <!-- Center niche with skull relief -->
+  <rect x="44" y="2" width="40" height="44" fill="#181d22" stroke="#0f1216" stroke-width="1.5" rx="2"/>
+  <!-- Skull carving -->
+  <ellipse cx="64" cy="20" rx="9" ry="10" fill="#ded7cb" stroke="#363430" stroke-width="1.5"/>
+  <circle cx="61" cy="20" r="2" fill="#14181c"/>
+  <circle cx="67" cy="20" r="2" fill="#14181c"/>
+  <line x1="62" y1="26" x2="66" y2="26" stroke="#363430" stroke-width="1.5"/>
+</svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Floor base -->
+  <rect width="128" height="128" fill="#3a2518"/>
+  <rect x="2" y="52" width="124" height="74" rx="1" fill="#4d3221" stroke="#2a1a10" stroke-width="2"/>
+  <!-- Wall sides -->
+  <rect x="0" y="0" width="36" height="48" fill="#2d1d14" stroke="#170e0a" stroke-width="2"/>
+  <rect x="92" y="0" width="36" height="48" fill="#2d1d14" stroke="#170e0a" stroke-width="2"/>
+  <rect x="4" y="4" width="28" height="40" fill="#c4b29b" stroke="#3d271b" stroke-width="2"/>
+  <rect x="96" y="4" width="28" height="40" fill="#c4b29b" stroke="#3d271b" stroke-width="2"/>
+  <!-- Wooden Tavern Door -->
+  <rect x="36" y="4" width="56" height="42" fill="#5e3920" stroke="#2a190e" stroke-width="2" rx="3"/>
+  <line x1="50" y1="4" x2="50" y2="46" stroke="#382112" stroke-width="1.5"/>
+  <line x1="64" y1="4" x2="64" y2="46" stroke="#382112" stroke-width="1.5"/>
+  <line x1="78" y1="4" x2="78" y2="46" stroke="#382112" stroke-width="1.5"/>
+  <!-- Brass door ring -->
+  <circle cx="70" cy="24" r="4" fill="none" stroke="#d4af37" stroke-width="2"/>
+  <rect x="68" y="21" width="4" height="4" fill="#a6841c"/>
+</svg>
